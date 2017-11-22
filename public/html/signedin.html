@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Lawyers First
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../uikit/css/uikit.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <script type="text/javascript" src="../uikit/js/uikit.min.js"></script>
+    <script type="text/javascript" src="../uikit/js/uikit-icons.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/logo.ico"/>
+    <script src="../javascripts/jquery.js"></script>
+    <script src="../javascripts/signedin.js"></script>
+</head>
+<body><br>
+    <div class="uk-container">
+        <div class="uk-text-center">
+            <h1 style="font-family: 'Kaushan Script', cursive;">Lawyers First</h1>
+        </div>
+    </div>
+    <!-- Navigation Bar  -->
+        <nav class="uk-navbar-container uk-margin" uk-navbar>
+                <div class="uk-navbar-center">
+                        <div class="uk-navbar-center-left">
+                            <div>
+                            <ul class="uk-navbar-nav">
+                                <li><a href="shome">Home</a></li>
+                                <li><a href="sabout">About</a></li>
+                                <li><a href="spricing">Pricing</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                        <a class="uk-navbar-item uk-logo" href="#"><img src="../images/logo.png" alt="logo not loaded"></a>
+                        <div class="uk-navbar-center-right"><div>
+                            <ul class="uk-navbar-nav">
+                                <li><a href="scontact">Contact</a></li>
+                            </ul>
+                        </div></div>
+                    </div>
+                    <div class="uk-navbar-right">
+                        <ul class="uk-navbar-nav">
+                                <li><a href="signedin">Account</a></li>
+                                <li><a href="signedin">Notifications</a></li>
+                                <li><a href="signout">Signout</a></li>
+                        </ul>
+            </div>
+            </nav>
+            <div class="uk-container uk-margin uk-margin-large"></div>
+            <div class="uk-container uk-container-center uk-text-center">
+                    <ul class="uk-flex-center" uk-tab>
+                            <li><a href="#">Recommendations</a></li>
+                            <li><a href="#">Search</a></li>
+                        </ul>
+                        
+                        <ul class="uk-switcher uk-margin">
+                            <li>
+                                <div class="uk-container uk-margin uk-margin-medium"></div>
+                                <div class="uk-container">
+                                    <input class="uk-input uk-form-width-large" id="reco_text" placeholder="Enter the Search Query"><br><br>
+                                    <button id="reco_button" class="uk-button uk-button-primary">GET RECOMMENDATIONS</button>
+                                </div><br>
+                                <span id="#reco_status"></span>
+                                <div class="uk-container uk-margin uk-margin-medium"></div>
+                                <div id="reco_div" class="uk-overflow-auto">
+                                </div>
+                            </li>
+                            <li>
+                                    <div class="uk-container uk-margin uk-margin-medium"></div>
+                                    <div class="uk-container">
+                                            <select id="search_select" class="uk-select uk-form-width-large">
+                                                    <option value="supreme">Supreme Court of India</option>
+                                                    <option value="bombay">High Court of Bombay</option>
+                                                    <option value="delhi">High Court of Delhi</option>
+                                                    <option value="karnataka">High Court of Karnataka</option>
+                                                    <option value="sikkim">High Court of Sikkim</option>
+                                            </select><br><br>
+                                        <button id="search_button" class="uk-button uk-button-primary"><span class="uk-icon" uk-icon="icon: search"></span>&nbsp&nbspSEARCH</button>
+                                    </div>
+                                    <div class="uk-container uk-margin uk-margin-medium"></div>
+                                    <div id="search_div" class="uk-overflow-auto">
+                                    </div>
+                            </li>
+                        </ul>
+            </div>
+
+            
+            <div class="uk-container uk-margin uk-margin-medium"></div>
+            <div class="uk-section uk-section-secondary uk-light">
+                    <div class="uk-container">
+                
+                            <h3 style="font-family: 'Kaushan Script', cursive;">Lawyers First</h3>
+                
+                        <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                            <div>
+                                <p>Lawyers First is an web application focussed mainly to provide on-demand information related to their cases.</p>
+                                <p>Follow us on
+                                <br>    
+                                <a href="" uk-icon="icon:google-plus"></a>
+                                <a href="" uk-icon="icon:twitter"></a>
+                                <a href="" uk-icon="icon:facebook"></a>
+                                <a href="" uk-icon="icon:youtube"></a>
+                                <a href="" uk-icon="icon:linkedin"></a>
+                                    </p>
+                            </div>
+                            <div class="uk-text-center">
+                                <ul class="uk-list">
+                                        <li><a style="text-decoration: none" href="/">Home</a></li>
+                                        <li><a style="text-decoration: none" href="about">About</a></li>
+                                        <li><a style="text-decoration: none" href="contact">Contact</a></li>
+                                        <li><a style="text-decoration: none" href="pricing">Pricing</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                    <address class="uk-text-center">
+                                            <h3>Office Address</h3>
+                                            PES University<br>
+                                            100 Feet Ring Road, Banashankari Stage III, Bengaluru, Karnataka-560085
+                                            </address>
+                            </div>
+                        </div>
+                
+                    </div><br>
+                    <div class="uk-text-center">
+                        &copy Copyright 2017
+                    </div>
+                </div>
+        
+    </body>
+    </html>
