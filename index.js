@@ -11,7 +11,7 @@ con = mysql.createConnection({
     host : 'localhost',
     user : 'root',
     database : 'user',
-    password:'Ilovemyindia1!',
+    password:'your_passowrd_for_mysql',
     multipleStatements: true,
 });
 
